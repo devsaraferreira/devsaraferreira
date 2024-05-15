@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastre aqui o seu imovel</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>cadastre e venda de forma fácil seu imovel</h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <h3>formulario</h3>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">venda seu imovel</h1>
+                <p>preencha os campos abaixo com os dados do imovel</p>
+                <form>
+                    <div class="input-box">
+                        <label for="title">titulo do anuncio <span class="required-field">*</span></label>
+                        <input 
+                        type="text"
+                        name="title" 
+                        id="title"
+                        class="block" 
+                        placeholder="um titulo para anunciar seu imovel" 
+                        minlength="1"
+                        maxlength="40"
+                        required/>
+                    </div>
+                    <div class="input-box">
+                        <label for="name">nome completo do poprietario<span class="required-field">*</span></label>
+                        <input 
+                        type="text"
+                        name="name" 
+                        id="name"
+                        class="block" 
+                        placeholder="informe seu nome completo" 
+                        required/>
+                    </div>
+                   
+                    <div class="input-box">
+                        <p>tipo do imovel<span class="required-field">*</span></p>
+                        <select name="não">
+                            <option value="casa">casa</option>
+                            <option value="apartamento">apartamento</option>
+                            
+                        </select>
+                  
+                    </div>
+                    
+                    <div class="input-box">
+                        <p> disponivel para<span class="required-field">*</span></p>
+                        <select name="não">
+                            <option value="venda">venda</option>
+                            <option value="locação">locaçao</option>
+                            
+                        </select>
+                        
+                    </div>
+
+                    <div class="input-box">
+                        <fieldset>
+                            <legend> preencha as informaçoes</legend>
+                            <label for="endereço">endereço <span class="required-field">*</span></label>
+                            <input type="text"
+                            name="endereço"
+                            id="endereço"
+                            class="block"
+                            placeholder="ex:rua joão afonso"
+                            required>
+                            <label for="bairro">bairro: <span class="required-field">*</span></label>
+                            <input type="text"
+                            name="bairro"
+                            id="bairro"
+                            class="block"
+                            placeholder="ex:centro"
+                            required>
+                            <label for="city">cidade: <span class="required-field">*</span></label>
+                            <input type="text"
+                            name="city"
+                            id="city"
+                            class="block"
+                            placeholder="cidade"
+                            required>
+                            <label for="state">estado: <span class="required-field">*</span></label>
+                            <input type="text"
+                            name="state"
+                            id="state"
+                            class="block"
+                            placeholder="estado"
+                            required>
+                            <label for="parents">pais: <span class="required-field">*</span></label>
+                            <input type="text"
+                            name="parents"
+                            id="parents"
+                            class="block"
+                            placeholder="pais"
+                            required>
+                        </fieldset>
+                        <div class="input-box">
+                            <label for="descriptin">descriçao<span class="required-field">*</span></label>
+                            <textarea
+                             name="descriptin"
+                             id="descriptin"
+                             class="block"
+                             placeholder="insira detalhes do seu imovel"
+                            ></textarea>
+                        </div>
+                        <label for="price">preço para venda/locação: <span class="required-field">*</span></label>
+                        <input type="price"
+                        name="price"
+                        id="price"
+                        class="block"
+                        placeholder="preço">
+                        <input type="price"
+                        name="price"
+                        id="price"
+                        class="block"
+                        placeholder="preço"
+                        required>
+
+                    </div>
+                     <h1 class="form-title">detalhes do imovel</h1>
+                     <div class="input-box">
+                        <label for="tamanho">tamanho do imovel<span class="required-field"></span>*</label>
+                        <input 
+                        type="number"
+                        name="tamanho" 
+                        id="tamanho"
+                        class="block" 
+                        required>
+                    </div>
+                    <div class="input-box">
+                    <fieldset>
+                        <legend>total de comodos</legend>
+                        <label for="quarto">quartos</label>
+                        <input type="number"
+                        name="quarto"
+                        id="quarto"
+                        class="block"
+                        required>
+                        <label for="banhiro">banheiro</label>
+                        <input type="number"
+                        name="banheiro"
+                        id="banheiro"
+                        class="block"
+                        required>
+                        <label for="suits">o imovel possui suits<span class="required-field"></span>*</label>
+                        <select name="não">
+                            <option value="no">não</option>
+                            <option value="yes">sim</option>
+                            
+                        </select>
+                    </fieldset>   
+                    </div>
+                    <div class="input-box">
+                        <p>fotos do imovel <span class="required-field">*</span></p>
+                        <input type="file" multiple accept="img/jpg img/png"
+                         id="images"
+                         name="images"
+                         required/>
+                    </div>  
+
+                    <input type="submit" value="enviar" class="btn-submit">
+                </form>
+                <div>
+                    <strong class="titulo"> fale com o proprietario</strong>
+                    <p>whatsapp: <a href="//wa.me/55991058982" : target="_blank"> (55)991058982 </a></p>
+
+        
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <h1 class="footer">desenvolvido por <a href="https://www.linkedin.com/in/sara-ferreira-2b801b1aa/" target="_blank"> @sara-ferreira</a></h1>
+</footer>
+
+</html>
