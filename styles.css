@@ -1,0 +1,80 @@
+html{
+    font-family: Helvetica;
+    background-color:#ebe4814b;
+    font-size: 17px;
+}
+.container{
+    max-width: 1100px;
+    background-color: #fff;
+    position: relative;
+    margin: 50px auto;
+    padding:20px 50px ;
+}
+h1{
+    color: black;
+    padding: 10px;
+    font-size: 40px;
+    margin: 0px;
+    text-align: center;
+}
+
+.main-paragraph{
+    margin-top: 0px;
+    text-align: center;
+    font-style:oblique;
+
+   
+}
+.imagem{
+    text-align: center;
+    
+}
+.imagem img{
+    width: 900px;
+    margin: 0;
+    height: 250px;
+}
+
+.bold{
+    font-weight: bold;
+    background-color: #ebe4814b;
+}
+.todos-container{
+    background-color: #ebe4814b;
+    border-radius: 8px;
+    font-family: 'Times New Roman';
+    padding: 5px ;
+    border: 3px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.todos-container blockquote{
+    font-weight: bold;
+    font-size: 25px ;
+    text-align: center;
+}
+
+.todos-container p{
+    font-style: italic;
+}
+
+.curiosidades li{
+    height: 30px;
+}
+
+.segunda-imagem{
+    text-align: center;
+    font-style: oblique;
+    
+}
+.segunda-imagem img{
+    width:500px;
+}
+
+.informações a{
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    background-color: #ebe4814b;
+    font-weight: bolder;
+}
+ 
